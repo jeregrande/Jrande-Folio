@@ -478,8 +478,30 @@ header {
     margin: 0 auto;
 }
 
-.portfolio-item-individual p {
-    max-width: 600px;
+.portfolio-item-individual > *{
     margin-left: auto;
     margin-right: auto;
+}
+
+.portfolio-item-individual div {
+    text-align: center;
+}
+
+.portfolio-item-individual a{
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+}
+
+.portfolio-item-individual a:hover {
+    text-decoration: underline;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+}
+
+.portfolio-item-individual img {
+    box-shadow: var(--bs);
+    border-radius: .2em;
 }
