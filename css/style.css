@@ -43,7 +43,7 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Seems to have scrimba issues */
+    scroll-behavior: smooth;
 }
 
 /* General Styles */
@@ -283,7 +283,7 @@ header {
 /*  My services section  */
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url("images/services.png");
+    background-image: url("images/services.png"), url("http://puu.sh/FlPJD/21cf4a5801.png");
     background-size: cover;
     background-blend-mode: overlay;
     color:var(--clr-light);
@@ -371,6 +371,26 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
+}
+
+@media (min-width: 1200px) {
+    .my-work {
+        background-color: var(--clr-dark);
+        color: var(--clr-light);
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .my-work {
+        background-color: var(--clr-dark);
+        color: var(--clr-light);
+        text-align: center;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
 }
 
 .my-work .section__subtitle {
