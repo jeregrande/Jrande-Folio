@@ -505,3 +505,8 @@ header {
     box-shadow: var(--bs);
     border-radius: .2em;
 }
+
+#fumblr-disclaimer {
+    padding-top: 2em;
+    font-size: var(--ff-secondary);
+}
