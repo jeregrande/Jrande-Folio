@@ -237,9 +237,22 @@ header {
     position: relative;
 }
 
+.intro__portfolio {
+    position: relative;
+    padding-bottom: 1em;
+}
+
 .intro__img {
     box-shadow: var(--bs);
     border-radius: .5em;
+}
+
+#intro__img-clear {
+    box-shadow: none;
+}
+
+#minisafeway-intro {
+    padding-bottom: 0;
 }
 
 /* Optionally wrap title block */
@@ -269,6 +282,7 @@ header {
     }    
     
     .section__subtitle--intro {
+        color: #eee;
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
