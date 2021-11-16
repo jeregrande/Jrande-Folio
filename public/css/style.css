@@ -300,7 +300,7 @@ header {
 /*  My services section  */
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url("images/services.png"), url("http://puu.sh/FlPJD/21cf4a5801.png");
+    background-image: url("../images/services.png");
     background-size: cover;
     background-blend-mode: overlay;
     color:var(--clr-light);
