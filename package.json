@@ -1,0 +1,18 @@
+{
+    "name": "jrande-folio",
+    "version": "1.0.5",
+    "description": "A simple portfolio website of my work.",
+    "author": "Jeremiah Grande",
+    "license": "ISC",
+    "dependencies": {
+        "@types/fs-extra": "8.1.1",
+        "code-point-at": "1.1.0",
+        "emoji-regex": "7.0.3",
+        "firebase-tools": "8.12.0",
+        "has-ansi": "2.0.0",
+        "klaw": "1.3.1",
+        "lodash.values": "2.4.1",
+        "nice-try": "1.0.5",
+        "number-is-nan": "1.0.1"
+    }
+}
